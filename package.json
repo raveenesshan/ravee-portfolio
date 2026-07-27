@@ -1,0 +1,31 @@
+{
+  "name": "raveenesshan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio of Raveenesshan T — Cloud Engineer & AWS Enthusiast",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "motion": "^12.0.0",
+    "next-themes": "^0.4.6",
+    "lucide-react": "^1.24.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "postcss": "^8.4.49",
+    "eslint": "^9.19.0",
+    "eslint-config-next": "^16.2.0",
+    "@eslint/eslintrc": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

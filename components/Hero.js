@@ -147,10 +147,7 @@ export default function Hero() {
                 <Image
                   src="/images/profile.jpg"
                   alt={`${personal.name}, ${personal.titleParts[0]}`}
-                  fill
-                  priority
-                  sizes="(max-width: 640px) 320px, 384px"
-                  className="object-cover object-[50%_18%]"
+                  className="absolute inset-0 h-full w-full object-cover object-[50%_18%]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/50 via-transparent to-transparent" />
               </div>

@@ -145,7 +145,7 @@ export default function Hero() {
             <div className="glass relative h-full w-full rounded-[2.5rem] p-2">
               <div className="relative h-full w-full overflow-hidden rounded-[2rem]">
                 <Image
-                  src={personal.photo}
+                  src="/images/profile.jpg"
                   alt={`${personal.name}, ${personal.titleParts[0]}`}
                   fill
                   priority

@@ -145,7 +145,7 @@ export default function Hero() {
             <div className="glass relative h-full w-full rounded-[2.5rem] p-2">
               <div className="relative h-full w-full overflow-hidden rounded-[2rem]">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/ravee-portfolio/images/profile.jpg"
                   alt={`${personal.name}, ${personal.titleParts[0]}`}
                   className="absolute inset-0 h-full w-full object-cover object-[50%_18%]"
                 />
